@@ -1,6 +1,3 @@
-html{
-    size: 100%;
-}
 body{
     background-color: white;
 }
@@ -18,5 +15,10 @@ div{display: flex;
     width: 22cm;
     background-image: url("landing.jpg");
     text-align: center;
+    border-image-width: 100px;
+}
+.big{
+    size: ;
+    background-position: 10px 10px;
 }
     
