@@ -1,0 +1,22 @@
+html{
+    size: 100%;
+}
+body{
+    background-color: white;
+}
+p{
+    background-image: url("landing.jpg");
+    background-color: #f15a29;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+}
+div{display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    align-items: center;
+    width: 22cm;
+}
+    

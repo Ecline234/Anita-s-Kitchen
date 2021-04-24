@@ -1,0 +1,61 @@
+#logo{}
+.big{
+    display: flex;
+    justify-content: center;
+}
+}.hour{
+    border: 30px white;
+    width: 300px;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 30px solid white;
+    align-items: flex-start;
+}
+.fast{
+   text-align: center; 
+   background-image: url("breakfast.jpg");
+   background-size: cover no repeat fixed;
+   width: 200px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+}
+.food{
+   text-align: center;
+   background-image: url("lunch.jpg");
+   background-size: cover no repeat fixed;
+   width: 200px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+}
+.super{
+   background-image: url("dinner.jpg");
+   float: right;
+   background-size: cover no repeat fixed;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+}
+.happy{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+    border: 300px white;
+    font-weight: 400;
+    align-items: baseline;
+}
+.container{
+    flex-basis: 100%;
+}
+.time{
+    flex: 30px;
+    background-color: #f15a39;
+    width: 200px;
+    height: 800px;
+    border: 200px;
+    align-items: baseline;
+}
