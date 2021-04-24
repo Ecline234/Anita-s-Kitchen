@@ -1,20 +1,41 @@
-body{
+html{
     background-color: white;
 }
-p{
-    background-size: cover;
+.p1{
+    background-image: url("landing.jpg");
+    width: 800px;
+    height: 500px;
     text-align: center;
     font-family: cursive;
     font-size: larger;
     align-items: center;
 }
-div{display: flex;
-    justify-content: space-between;
+div{
     flex-basis: 100%;
     align-items: center;
     width: 22cm;
-    background-image: url("landing.jpg");
+    
     text-align: center;
     border-image-width: 100px;
+}
+.fastfood{
+    flex-direction: column;
+    background-color: white;
+}
+.image{
+    float: left;
+    height: 200px;
+    width: auto;
+    margin-right: 10px;
+}
+.big{
+    align-items: center;
+    display: flex;
+}
+.p2{
+    margin-top: 60px;
+    width: 60%;
+    clear: right;
+    align-items: center;
 }
     

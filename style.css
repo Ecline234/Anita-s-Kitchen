@@ -1,22 +1,26 @@
-.big{
-    display: flex;
-    justify-content: center;
-    size: 50%;
-}
 .happy{
     flex-direction: row;
     flex-wrap: wrap;
     border: 30px solid white;
-    align-items: flex-start;
     background-color: white;
-    text-align: center;
+    display: flex;
 }
 .party{
     flex: 30px;
     background-color: #f15a39;
     border: 20px;
     align-items: baseline;
+    display: flex;
     text-align: center;
+}    
+.special{
+    float: left;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 300px;
+    font-weight: 40;
+    align-items: baseline;
 }    
 .breakfast{
    text-align: center; 
@@ -40,15 +44,7 @@
    display: flex;
    justify-content: center;
 }
-.special{
-    float: left;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 300px;
-    font-weight: 400;
-    align-items: baseline;
-}
-.oder{
+.order{
     flex-basis: 100%;
+    display: flex;
 }
