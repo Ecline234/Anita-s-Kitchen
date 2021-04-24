@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
 }
-}.hour{
+.happy{
     border: 30px white;
     width: 300px;
     height: 200px;
@@ -11,8 +11,10 @@
     flex-wrap: wrap;
     border: 30px solid white;
     align-items: flex-start;
+    background-color: white;
+    text-align: center;
 }
-.fast{
+.breakfast{
    text-align: center; 
    background-image: url("breakfast.jpg");
    background-size: cover no repeat fixed;
@@ -21,7 +23,7 @@
    display: flex;
    justify-content: center;
 }
-.food{
+.lunch{
    text-align: center;
    background-image: url("lunch.jpg");
    background-size: cover no repeat fixed;
@@ -30,7 +32,7 @@
    display: flex;
    justify-content: center;
 }
-.super{
+.dinner{
    background-image: url("dinner.jpg");
    float: right;
    background-size: cover no repeat fixed;
@@ -38,7 +40,7 @@
    display: flex;
    justify-content: center;
 }
-.happy{
+.special{
     float: left;
     display: flex;
     flex-direction: column;
@@ -48,10 +50,10 @@
     font-weight: 400;
     align-items: baseline;
 }
-.container{
+.oder{
     flex-basis: 100%;
 }
-.time{
+.party{
     flex: 30px;
     background-color: #f15a39;
     width: 200px;
