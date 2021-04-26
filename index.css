@@ -28,35 +28,22 @@
     left: 10%;
     font-size: 32px;
     color: white;
+} 
 }
-
-/* div{
-    flex-basis: 100%;
-    align-items: center;
-    width: 22cm;
-    
-    text-align: center;
-    border-image-width: 100px;
-} */
+footer{
+    height: 100px;
+    background: #f15a29;
+}
+.drinks{
+    display: flex;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 200px 200px 5px white;
+}
 .fastfood{
     flex-direction: column;
-    background-color: white;
-}
-.image{
-    float: left;
-    height: 200px;
-    width: auto;
-    margin-right: 10px;
-}
-.big{
-    align-items: center;
     display: flex;
-}
-.p2{
-    width: 60%;
-    clear: right;
-    align-items: center;
-    border: white;
-    box-shadow: 2px 2px 4px solid white;
-    float: left;
+    width: 200px;
+    margin: 5px;
 }

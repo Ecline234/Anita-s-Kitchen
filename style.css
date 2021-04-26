@@ -1,17 +1,14 @@
 .happy{
     flex-direction: row;
-    flex-wrap: wrap;
     border: 30px solid white;
-    background-color: white;
     display: flex;
 }
-.party{
-    flex: 30px;
+.party{  
     background-color: #f15a39;
-    border: 20px;
-    align-items: baseline;
-    display: flex;
+    margin: 10px;
+    width: 100%;
     text-align: center;
+    height: 100px;
 }    
 .special{
     float: left;
@@ -20,10 +17,9 @@
     flex-direction: column;
     width: 300px;
     font-weight: 40;
-    align-items: baseline;
+    align-items: center;
 }    
 .breakfast{
-   text-align: center; 
    background-image: url("breakfast.jpg");
    width: 200px;
    height: 200px;
@@ -31,7 +27,7 @@
    justify-content: center;
 }
 .lunch{
-   text-align: center;
+   align-self: center;
    background-image: url("lunch.jpg");
    width: 200px;
    height: 200px;
@@ -41,10 +37,14 @@
 .dinner{
    background-image: url("dinner.jpg");
    height: 200px;
+   width: 200px;
    display: flex;
    justify-content: center;
 }
 .order{
-    flex-basis: 100%;
     display: flex;
-}
+    color: white;
+    display: flex;
+    width: 700px;
+    
+    
