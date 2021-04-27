@@ -41,22 +41,36 @@ footer{
     
 }
 .fastfood{
-    display: flex;
-    flex-wrap: wrap;
     width: 200px;
     margin: 50px;
     clear: left;
+    flex-wrap: wrap-reverse;
+}
+.ipsum{
+    display: flex;
+    justify-content: right;
+    
 }
 .customers{
     float: left;
+    margin: 50px;
+    padding-top: 1px;
 }
 .sauce{
     background-image: url("foodsBg.jpg");
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
 }
 .subscription{
     background-image: url("subscribe.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-self: center;
 }
 .about{
-   display: flex;
-   flex-wrap: ;
+   
+   flex-wrap: wrap;
+   margin: 50px;
 }
