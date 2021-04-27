@@ -8,42 +8,44 @@
     width: 600px;
     text-align: center;
     height: 122px;
-    align-items: center;
-}    
+}        
 .special{
     float: left;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    width: 500px;
+    width: 200px;
     font-weight: 40;
     align-items: center;
 }    
 .breakfast{
    background-image: url("breakfast.jpg");
-   width: 200px;
+   width: 400px;
    height: 200px;
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 .lunch{
    align-self: center;
    background-image: url("lunch.jpg");
-   width: 200px;
+   width: 400px;
    height: 200px;
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 .dinner{
    background-image: url("dinner.jpg");
    height: 200px;
-   width: 200px;
+   width: 400px;
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 .order{
     display: flex;
     color: white;
     display: flex;
-    width: 700px;
+
 }
