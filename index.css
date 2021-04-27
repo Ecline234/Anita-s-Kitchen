@@ -29,7 +29,6 @@
     font-size: 32px;
     color: white;
 } 
-}
 footer{
     height: 100px;
     background: #f15a29;
@@ -46,4 +45,17 @@ footer{
     display: flex;
     width: 200px;
     margin: 5px;
+}
+.customers{
+
+}
+.sauce{
+    background-image: url("foodsBg.jpg");
+}
+.subscription{
+    background-image: url("subscribe.jpg");
+}
+.about{
+   display: flex;
+   flex-wrap: wrap;
 }
