@@ -35,20 +35,20 @@ footer{
     text-align: center;
 }
 .drinks{
-    display: flex;
-    margin: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 200px;
+    display: flex;
     
 }
 .fastfood{
-    width: 200px;
-    margin: 50px;
-    clear: left;
-    flex-wrap: wrap-reverse;
+    float: right;
+    flex-wrap: wrap;
+    display: flexbox;
 }
 .ipsum{
     display: flex;
-    justify-content: right;
+    margin-top: 50px;
     
 }
 .customers{
@@ -75,4 +75,21 @@ footer{
 }
 .chick{
     margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+.beef{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.burger{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.pizza{
+    background-color: white;
 }
