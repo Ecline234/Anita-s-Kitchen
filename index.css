@@ -67,10 +67,12 @@ footer{
     background-image: url("subscribe.jpg");
     padding-top: 100px;
     padding-bottom: 100px;
-    align-self: center;
 }
 .about{
-   
    flex-wrap: wrap;
    margin: 50px;
+   padding-bottom: 50px;
+}
+.chick{
+    margin-left: 50px;
 }
