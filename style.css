@@ -5,17 +5,17 @@
 }
 .party{  
     background-color: #f15a39;
-    margin: 10px;
-    width: 100%;
+    width: 600px;
     text-align: center;
-    height: 100px;
+    height: 122px;
+    align-items: center;
 }    
 .special{
     float: left;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    width: 300px;
+    width: 500px;
     font-weight: 40;
     align-items: center;
 }    

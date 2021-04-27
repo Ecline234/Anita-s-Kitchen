@@ -32,22 +32,23 @@
 footer{
     height: 100px;
     background: #f15a29;
+    text-align: center;
 }
 .drinks{
     display: flex;
     margin: 5px;
     width: 200px;
-    height: 200px;
-    box-shadow: 200px 200px 5px white;
+    
 }
 .fastfood{
-    flex-direction: column;
     display: flex;
+    flex-wrap: wrap;
     width: 200px;
-    margin: 5px;
+    margin: 50px;
+    clear: left;
 }
 .customers{
-
+    float: left;
 }
 .sauce{
     background-image: url("foodsBg.jpg");
@@ -57,5 +58,5 @@ footer{
 }
 .about{
    display: flex;
-   flex-wrap: wrap;
+   flex-wrap: ;
 }
