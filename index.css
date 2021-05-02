@@ -102,5 +102,7 @@ footer{
 }
 .pizza{
     background-color: white;
+    padding-left: 2px;
+    margin-left: auto;
 }
 .contacts{}
