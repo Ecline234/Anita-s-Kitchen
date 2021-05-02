@@ -67,13 +67,23 @@
             <img src="p3.png" alt="p3">  
     </div>     
             <div class="about">
-                <h3>About Menu</h3>
-            We are menu, a little team of 7 members. <br>Ut wisi enim ad minim veniam,quis nos <br> truxederr ci tation ullamcorpr suscipit lob <br> ortis nisl ut aliquip ex ea commodo conse <br> quat. Duisau tem vel eum iriure dolo in.
+                                                                            <h3>About Menu</h3>lob <br> ortis nisl ut aliquip ex ea commodo conse <br> quat. Duisau tem vel eum iriure dolo in.
             </div>   
         <div class="subscription">
             <h4>Get our daily food items delivered to your email</h4>
              <br>
-             <div class="contacts">Your Email  Subscribe</div> 
+            <script>
+                function validateForm() {
+                    var x= document.forms["myForm"]["fname"].value;
+                    if (x == "") {
+                        alert("Email must be filled out");
+                        return false;
+                    }
+                }
+            </script>
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            Your Email: <input type="text" name="fname"><input type="submit" value="Subscribe">
+            </form>
         </div>
 <footer>
 </p>
